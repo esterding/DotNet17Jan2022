@@ -1,0 +1,68 @@
+-download link for git https://git-scm.com/download/win
+-to get the git version that is installed in the system
+	-go to cmd
+		-type : git --version
+----------------------------------------		
+to create a local repo (type cmd on the file url)
+git init
+----------------------------------------
+to check the status of the local repo
+git status
+-----------------------------------------
+to add a file to the local repo for tracking
+git add <filename>
+-----------------------------------------
+to add all the files in the current folder for tracking
+git add -A
+---------------------------------------------
+to commit the file to the local repo
+git commit -m "<message given: such as :firstcommit/update>"
+---------------------------------------
+to set the identity for local repo
+git config --global user.email "<your email>"
+-------------------------------------
+to check the git again after update
+git log
+--------------------------------------
+Link local repo with the remote repo(github)
+git remote add origin <the remote repo url in github>
+--------------------------------------
+to check the remote repo connection
+git remote --v
+---------------------------------
+to pull work from a remote repo all new
+Create a local folder and in the cmd prompt
+git clone <url in github>
+------------------------------------
+
+git push origin master
+-------------------------------------------
+to pull
+git pull origin master
+-------------------------
+git push origin mater --force   << force to push if any comflict fixed
+
+--------------------------------
+to create new branch
+git branch <branch name>
+-----------------------
+to change the working branch
+git checkout <branch name>
+---------------------------------------
+to view all the branches
+git branch
+------------------------------------
+to merge branch to master
+git merge <branch name>
+------------------------------------
+to delete branch
+git branch -d <branch name>
+
+
+https://github.com/gayat19/Dotnet17Jan2022.git   <<< trainer github to share all work
+ 
+
+learn collaberas
+create new repositories, give remote repositories and give link in chat
+same file structure
+file name - Day1 / two files 
