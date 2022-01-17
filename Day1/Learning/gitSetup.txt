@@ -1,5 +1,6 @@
 -download link for git https://git-scm.com/download/win
--to get the git version that is installed in the system
+---------------------------------------------------------
+to get the git version that is installed in the system
 	-go to cmd
 		-type : git --version
 ----------------------------------------		
@@ -27,6 +28,9 @@ git log
 Link local repo with the remote repo(github)
 git remote add origin <the remote repo url in github>
 --------------------------------------
+to remove repo(github)
+git remote remove origin <the remote repo url in github>
+-------------------------------------------
 to check the remote repo connection
 git remote --v
 ---------------------------------
@@ -63,6 +67,6 @@ https://github.com/gayat19/Dotnet17Jan2022.git   <<< trainer github to share all
  
 
 learn collaberas
-create new repositories, give remote repositories and give link in chat
+create new repositories
 same file structure
 file name - Day1 / two files 

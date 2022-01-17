@@ -1,0 +1,43 @@
+reduce repeatation
+more repeat more inconsistance bcome
+reduce redundancy
+can help with normalization, creating relation within table
+if able to create the database right, project is almost right
+think all perspective and create a database
+user normalization (no more than 1 value in a column) to make all relationship done
+third normal form
+RDBMS
+-entity (table) :strong, weak
+-attribute (column):simple, complex, multi value
+-relation :relationType 1:1, 1:n, n:more
+-cardinality
+-arity
+-primary key
+-composite key
+-foreign key
+-unique
+-check constraint
+-partial dependancy
+
+
+
+DDL, DML, Select
+
+int, float, varchar(n), char(n), bit, DateTime
+simple video store -> rents CDs and DVDs
+customer can rent the disc
+customer data should be stored
+disc data should be stored
+invoice and rent related data also should be stored
+
+
+customer - customer id, name, ic, address, contact no,DOB, email address
+discs - disc id, disc name, Genres, type (CD/DVD), publisher, serial no
+disc - serial no, date of purchase 
+Invoice - customer id, disc id, InvoiceDate, fees, Return date, panalty fee, 
+
+
+
+
+sp_Help tblLocation << can see the table
+
