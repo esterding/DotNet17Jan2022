@@ -1,0 +1,75 @@
+selection (we are filtering)
+projection
+where
+comparison operator
+logical gate
+
+to provide alias name just for display purposes 
+select ProductName Product_Name from Products
+select ProductName 'Product Name' from Products
+-------------------------------------------------
+
+to filter number of record
+select * from Products where UnitPrice > 15 and UnitPrice<25        //and
+select * from Products where UnitPrice between 15 and 25			//between
+select * from Products where UnitPrice >15 and SupplierID = 17		//and
+select * from Products where SupplierID = 15 or UnitsInStock <5		//or
+select * from Products where SupplierID in(8,12,13,18)				//in
+select * from Products where SupplierID not in(8,12,13,18)			//not in
+select * from Products where ProductName = 'Ikura'			
+select * from Products where ProductName like '%on%'				// like
+
+
+/*every time when provide the comparision, MUST provide column name
+------------------------------------------------------------
+
+aggregation function
+//aggregation function cannot combine column
+select avg(unitsinstock) Average_Stock,								//sum, count, distinct
+sum(unitsinstock) 'Total number of units'
+from Products
+
+select count(distinct SupplierId) from products
+select avg(UnitPrice) Sum_Price from Products where SupplierID in(2,6,9)
+
+--------------------------------------------------------------------
+
+sorting
+
+select ProductName from products order by SupplierID
+
+//SupplierID will sort in order, while UnitsInStock will sort in desc order
+select * from products order by SupplierID, UnitsInStock desc
+
+select * from Products where ProductName like '%e%' order by SupplierId 	
+
+//must follow the sequence, >from > where > group by> having> order by
+//use having after completed the filter
+
+select SupplierId, count(ProductId) 'Number of Product'
+from products 
+where UnitsInStock >0
+group by SupplierId
+having count(ProductId) >2
+Order by 2 /* This 2 refer to the second column, in this case, is 'Count'. Can write as 'Number of Product' as well. */
+
+select Salesperson, avg(UnitPrice*Quantity*Discount) 
+from Invoices
+where ShipCountry = 'France' and CustomerName like '%e%'
+group by Salesperson
+having avg(UnitPrice*Quantity*Discount) > 3
+order by Salesperson
+
+------------------------------------------------------------------
+sub query
+
+select * from Products where SupplierId = (
+select SupplierId from Suppliers where CompanyName = 'Tokyo Traders'
+)  // use = operator only if surely one result from the filter
+
+select * from Products where SupplierId in (
+select SupplierId from Suppliers where Country = 'Germany'
+) 
+
+
+	

@@ -1,0 +1,34 @@
+//inner join
+select c.ContactName 'Customer Name', o.OrderId, p.ProductName
+from Customers c join Orders o
+on c.CustomerID = o.CustomerID
+join [Order Details] od
+on od.OrderID = o.OrderID
+join Products p
+on p.ProductID = od.ProductID
+
+//left join
+select c.ContactName 'Customer Name', o.OrderId, p.ProductName
+from Customers c left join Orders o
+on c.CustomerID = o.CustomerID
+left join [Order Details] od
+on od.OrderID = o.OrderID
+left join Products p
+on p.ProductID = od.ProductID
+
+//right join
+select c.ContactName 'Customer Name', o.OrderId, p.ProductName
+from Products p join [Order Details] od
+on p.ProductID = od.ProductID
+join Orders o
+on o.OrderID = od.OrderID
+right join Customers c
+on c.CustomerID = o.CustomerID
+
+//cross join
+select * from Region cross join Shippers
+
+//self join
+select em.EmployeeID Employee, em.FirstName 'Employee Name', em.ReportsTo 'Manager Id', mgr.FirstName 'Manager Name' 
+from Employees em ,Employees mgr
+where em.EmployeeID = mgr.EmployeeID
