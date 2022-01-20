@@ -1,0 +1,7 @@
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day4\Learning\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe.config
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day4\Learning\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day4\Learning\FirstSolution\FirstApplication\bin\Debug\FirstApplication.pdb
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day4\Learning\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day4\Learning\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day4\Learning\FirstSolution\FirstApplication\obj\Debug\FirstApplication.exe
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day4\Learning\FirstSolution\FirstApplication\obj\Debug\FirstApplication.pdb
