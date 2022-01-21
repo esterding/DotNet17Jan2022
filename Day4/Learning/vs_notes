@@ -1,0 +1,33 @@
+CRUD -> create, read, update, delete
+
+read = select
+create = new record inserted
+update = change record
+delete = when come to delete, it actually is also update, for the record will still there, but not show
+
+------------------------------------------------------------------------------
+.NET only able to installed in Microsoft system, it is a technology
+Visual Studio is an IDE  only can installed in Microsoft
+
+.NET Core is an independent platform - PI, can installed in any system, it is a technology
+Visual Studio Code can install in any os, not limited to Microsoft
+
+CTS(common type system) is a type create with CLR
+
+C# is an Object Oriented programming language
+OOPS ->
+	Class
+	Object
+		
+
+------------------------
+create clinic managing system, doctor and patient, c# console system
+patient can login, see payment request, make appointment, can see appointment(present and past), can see report, make payment
+doctor can login, can view appointment(present and past), close appointment, write down medication, medication report, payment request raise
+payment status, 
+create requirement document in dml ddl, erd table
+
+
+------------------
+c#, windows, console
+framework select .net framework 4.7.2

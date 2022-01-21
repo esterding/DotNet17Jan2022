@@ -1,0 +1,46 @@
+stored procedures
+triggers
+cursors
+functions
+transactions 
+
+sequence
+selection
+Iteration
+--------------------------------------------------
+advantages of stored procedure (5 points):
+faster, only 1 time execution
+avoided data injection
+only database person will know 
+--------------------------------------------------
+try to create variable as less as possible
+
+start with 'begin' and end with 'end' can start to write a simple programming in sql
+declare a variable with '@', and give it a datatype. start with 'declare'
+given a value to the variable start with 'set'
+if using datatime(or any datatype coundnt be print), will need to 'cast' it datatype to varchar when print
+
+'create procedure' same as 'create proc', is to create a procedure
+
+if the stored procedure has been loaded, use 'alter procedure' to modify.
+
+'begin tran' can 'rollback' if transactions failed. after 'commit', no rollback allowed.
+all DML will rollback if 'rollback'. for safe, can make a safe point before commit, else no turn back.
+'begin tran' must end with 'rollback' or 'commit'
+-----------------------------------------------------
+start with 'create function' to create a function
+using function if required return a value, tabular
+to call function, start with 'select', and fill in the function name as like table name
+function cannot have print function, cannot process DML Query for a existing table
+
+-------------------------------------------------
+start with 'create trigger' to create a trigger
+start with 'create trigger' > 'on' what > 'for' what> 'as' > 'begin'
+trigger unable to pass parameter, need to use 'from inserted'
+
+declare, open, fetch,close, deallocate
+
+
+
+
+
