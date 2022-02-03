@@ -1,0 +1,17 @@
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\task03Feb.exe.config
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\task03Feb.exe
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\task03Feb.pdb
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\EntityFramework.dll
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\task03FebDALEF.dll
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\Task03FebModelsLibrary.dll
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\task03FebDALEF.pdb
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\task03FebDALEF.dll.config
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\Task03FebModelsLibrary.pdb
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\EntityFramework.xml
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\obj\Debug\Task03FebFE.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\obj\Debug\Task03FebFE.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\obj\Debug\Task03FebFE.csproj.CopyComplete
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\obj\Debug\task03Feb.exe
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03Feb\obj\Debug\task03Feb.pdb

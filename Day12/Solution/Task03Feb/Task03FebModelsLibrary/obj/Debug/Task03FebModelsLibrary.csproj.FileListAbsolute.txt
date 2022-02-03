@@ -1,0 +1,6 @@
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03FebModelsLibrary\bin\Debug\Task03FebModelsLibrary.dll
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03FebModelsLibrary\bin\Debug\Task03FebModelsLibrary.pdb
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03FebModelsLibrary\obj\Debug\Task03FebModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03FebModelsLibrary\obj\Debug\Task03FebModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03FebModelsLibrary\obj\Debug\Task03FebModelsLibrary.dll
+C:\Users\ACER\Documents\ahyun_workLife\Collabera\DotNet17Jan2022\Day12\Solution\Task03Feb\task03FebModelsLibrary\obj\Debug\Task03FebModelsLibrary.pdb
