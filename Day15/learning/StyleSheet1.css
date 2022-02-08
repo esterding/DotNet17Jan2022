@@ -1,0 +1,38 @@
+﻿body
+{
+}
+
+#divLogin {
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 300px;
+    height: 120px;
+    left: 40%;
+    top: 20%;
+    position: absolute;
+    padding: 20px 15px;
+}
+
+.clsInput {
+    left: 40%;
+    position: absolute;
+}
+
+#spnBtn {
+    left: 20%;
+    position: absolute;
+}
+
+#btnSubm {
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 80px;
+    border: none;
+}
+
+#btnReset {
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 80px;
+    border: none;
+}

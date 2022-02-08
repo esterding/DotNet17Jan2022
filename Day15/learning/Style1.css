@@ -1,0 +1,17 @@
+﻿body
+{
+}
+
+#divLogin {
+    width: 350px;
+    height: 300px;
+    left: 40%;
+    top: 20%;
+    position: absolute;
+    padding: 20px 15px;
+}
+
+#spanButtons {
+    left: 20%;
+    position: absolute;
+}

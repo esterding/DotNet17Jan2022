@@ -1,0 +1,19 @@
+﻿body
+{
+}
+
+#divLogin {
+    width: 350px;
+    height: 750px;
+    left: 40%;
+    top: 10%;
+    position: absolute;
+    padding: 20px 15px;
+}
+#spanButtons {
+    left: 20%;
+    position: absolute;
+}
+#title {
+    text-align:center;
+}
