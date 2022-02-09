@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e24a2d0d-fb2a-4bc0-94f8-e7b8e1dba1b5": {
+      "ProjectGuid": "e24a2d0d-fb2a-4bc0-94f8-e7b8e1dba1b5",
+      "DisplayName": "task090222",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

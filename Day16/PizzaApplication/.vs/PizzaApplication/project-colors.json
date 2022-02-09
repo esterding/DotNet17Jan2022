@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "30339e79-e2c7-46fc-9317-ce5da636f1b8": {
+      "ProjectGuid": "30339e79-e2c7-46fc-9317-ce5da636f1b8",
+      "DisplayName": "PizzaApplication",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
