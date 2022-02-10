@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj": {}
+    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day16\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj": {
+    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day16\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day16\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj",
         "projectName": "PizzaApplication",
-        "projectPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj",
+        "projectPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day16\\PizzaApplication\\PizzaApplication\\PizzaApplication.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\PizzaApplication\\PizzaApplication\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day16\\PizzaApplication\\PizzaApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

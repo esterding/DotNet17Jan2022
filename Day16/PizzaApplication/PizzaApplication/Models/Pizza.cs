@@ -6,5 +6,8 @@
         public string Name { get; set; }
         public bool IsVeg { get; set; }
         public double Price { get; set; }
+        public string Pic { get; set; }
+        public  string Details { get; set; }
+
     }
 }

@@ -38,9 +38,9 @@
             var currentRow=$(this).closest("tr"); 
             var productId=currentRow.find("td:eq(0)").text(); // get current row 1st TD value
             console.log(productId);
-            //window.location.href = "@Url.Action("Edit", "Product")" +"/"+ productId ;
-
-            $.ajax({
+            window.location.href = "@Url.Action("Edit", "Product",new{Id = " + productId + "})";
+            
+            @*$.ajax({
                 url:  '@Url.Action("Edit", "Product")',
                 type: 'GET',
                 data: {
@@ -52,7 +52,7 @@
                 error: function (result) {
                     console.log(result.message);
                 }
-            });
+            });*@
 
         });
 

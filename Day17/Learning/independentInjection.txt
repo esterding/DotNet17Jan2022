@@ -1,0 +1,25 @@
+09Feb2022
+
+html helper
+
+10022022
+7.50am
+repository pattern
+dependecy injection
+consuming class, service class, provider
+decoupling class
+
+9.07
+entity framework
+
+9.30
+migration db
+add-migration <>
+update-database
+9.48
+overall explaination
+
+
+eftool
+efSQL server
+

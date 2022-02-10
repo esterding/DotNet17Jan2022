@@ -34,9 +34,23 @@ namespace task090222.Controllers
         [HttpGet]
         public IActionResult Edit(int productId)
         {
-            Product product = new Product();
-            product = Products.FirstOrDefault(p => p.Id == productId);
+            //Product product = new Product();
+            var product = Products.FirstOrDefault(p => p.Id == productId);
             return View(product);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(int productId, Product product)
+        {
+            //Product product = new Product();
+            var MyProduct = Products.FirstOrDefault(p => p.Id == productId);
+            MyProduct.Name = product.Name;
+            MyProduct.Price = product.Price;
+            MyProduct.Quantity = product.Quantity;
+            MyProduct.Remarks = product.Remarks;
+            MyProduct.SupplierId = product.SupplierId;
+
+            return RedirectToAction("Index");
         }
     }
 }

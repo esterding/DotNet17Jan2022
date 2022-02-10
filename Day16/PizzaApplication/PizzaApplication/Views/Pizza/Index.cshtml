@@ -35,6 +35,12 @@
                  @* <input type="checkbox" checked= @item.IsVeg>*@
                  @Html.CheckBoxFor(m=>item.IsVeg,new {@checked=@item.IsVeg})
                </td>
+               <td>
+                   @Html.ActionLink("Details","Details","Pizza",new{Id = @item.Id})
+               </td>
+                <td>
+                   @Html.ActionLink("Delete","Delete","Pizza",new{Id = @item.Id})
+               </td>
            </tr>
        }
       </tbody>
