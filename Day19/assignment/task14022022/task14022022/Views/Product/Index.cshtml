@@ -1,0 +1,38 @@
+﻿@model IEnumerable<task14022022.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .btncenter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+</style>
+<h1>Index</h1>
+ <div class="container-lg">
+   
+    @foreach (var item in Model) 
+    {
+        <div id="divCard" style="width:18rem" class="card">
+            <!--Card image-->
+            <div class="view">
+            <img width="100" length="150" src="@Url.Content(item.ProductImage)" alt="No Pic" class="card-img-top">
+            </div>
+            <!--Card content-->
+             
+            <!--Title-->
+            <h4 class="card-title" style="text-align:center">@item.ProductName</h4>
+
+            <!--Text-->
+                <div class="card-body">
+                    <div class="form-group btncenter">                       
+                        @*<button class="btn btn-primary" >@Html.ActionLink("Buy", "ProductDetails", new { id = item.ProductId}) </button>      *@
+                        <a class="btn btn-primary" style="width:16rem" href="@Url.Action("Purchase","Product", new Product{ProductId = item.ProductId})">Buy</a>
+                    </div>     
+            </div>
+        </div>  
+    }
+ </div>

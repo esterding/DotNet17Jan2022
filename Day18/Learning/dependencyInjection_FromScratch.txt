@@ -1,0 +1,74 @@
+Day-18
+11022021
+
+//start with entity framework
+to add connection, will need model first.
+
+create model
+
+nuGet
+-add EFCore.SqlServer 
+-add EFCore.Tools
+(select version based on the .net core. for exp, .net core 5 for 2019 need version 5)
+(for core, use EFcore. else, normal .net choose without core. Have to match the version those all)
+
+create context class under model (this is where it will generate table, connect to db)
+-inherit DbContext
+- create constoctor, get DbContextOption, inherit base
+
+go appsetting.json, add the connection string
+ "ConnectionStrings": { "conn": "Data Source=LAPTOP-59TIL9V5\\SQL2019;user id=sa;password=sapassword;Initial Catalog=dbMyOnlineStore;" },
+
+go Program.cs, add services
+string strCon = builder.Configuration.GetConnectionString("myConn");
+builder.Services.AddDbContext<ShopContext>(opts =>
+{
+    opts.UseSqlServer(strCon);
+});
+
+//for vs.net 2019, connectionstring has to in
+configureServices:
+
+    services.AddDbContext<ShopContext>(opts =>
+{
+    opts.UseSqlServer(Configuration["ConnectionStrings:myCon"]);
+});//
+
+click on Tools > go Package manager console:
+type: Add-Migration Init
+type:Update-Database
+//db should be created now
+
+
+//now, go to services
+create folder, name services
+first, create an Interface IRepo for dependency injection. set the interface as public. 
+create a new class for particular repo, inherit Interface IRepo. taking context as injecton.
+
+go to Program.cs, do injection again now
+builder.Services.AddScoped<IRepo<int, Customer>, CustomerRepo>();
+//for vs 2019, use this line    
+services.AddScoped<IRepo<int, Customer>, CustomerRepo>();//
+
+
+//now, will start to work on controller.
+create the controller, taking IRepo as the injection.
+
+//now, can use the scaffolding to add view.
+
+
+useful link:
+https://www.c-sharpcorner.com/article/simple-login-application-using-Asp-Net-mvc/
+
+
+
+
+
+
+
+
+
+
+
+
+

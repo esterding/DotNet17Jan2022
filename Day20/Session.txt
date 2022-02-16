@@ -1,0 +1,29 @@
+To Work With Session:
+example is in Day18 - SampleMVC
+
+-add the service
+builder.Services.AddSession(opts=>{
+	opts.IdleTimeout = TimeSpan.FromMinutes(5);
+});
+-put injection
+builder.Services.AddScoped<LoginService>();
+
+-go to configure to use the session
+app.UseSession();
+
+-go to services folder
+add LoginService class as Services, 
+
+-if success, add the session
+HttpContext.Session.SetString("un", user.Username);
+return redirectToAction("ShowProducts","Home");
+
+-to retrive the session
+HttpContext.Session.GetString("un");
+
+-to show the session in view
+in the controller >
+ViewBag.Username = HttpContext.Session.GetString("un");
+in the view >
+ @ViewBag.Username
+

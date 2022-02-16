@@ -1,0 +1,26 @@
+Day 21
+16/2/2022
+
+Only in microsoft
+WCF Windows Communication Foundation
+WPF Windows Presentation Foundation
+WWF Windows Workflow Foundation
+
+GET - read
+PUT - update
+POST - create
+DELETE - delete
+
+REST, repository get transfer
+
+web service
+communication only using XML, using protocol 
+
+API is only consist of controller(API controller), and model
+
+to start create API
+======================
+create project use asp.net core web API
+check if nuget added Swashbuckle? add it and go to program.cs, check on: builder.Services.AddSwaggerGen(), app.UseSwagger();
+if Swagger is not available, have to install postman, and use the postman to run the api. make sure the system is executing while running postman.
+to post in postman, 1.select body 2.select raw, 3.insert data 4. select data type (json) and send.

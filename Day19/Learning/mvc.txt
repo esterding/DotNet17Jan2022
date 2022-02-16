@@ -1,0 +1,10 @@
+Day 19 
+14/2/2022 (solution in day18)
+
+interface inherittance
+register user, 
+and login to the user page
+validation,
+view modal
+
+Temp.Add allowed user to pass data from one view to another view

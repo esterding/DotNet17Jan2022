@@ -1,0 +1,105 @@
+﻿@model task14022022.Models.PurchaseProduct
+
+@{
+    ViewData["Title"] = "Purchase";
+}
+
+<h1>Purchase</h1>
+
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductImage)
+        </dt>
+        <dd class = "col-sm-10">
+             <img width="100" length="150" src="@Url.Content(Model.Product.ProductImage)" alt="No Pic">
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Product.ProductName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductDescription)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Product.ProductDescription)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductCategory)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Product.ProductCategory)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductQuantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Product.ProductQuantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            SGD @Html.DisplayFor(model => model.Product.ProductPrice)
+        </dd>
+     </dl>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Purchase">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PurchaseQty" class="control-label"></label>
+                <input asp-for="PurchaseQty" class="form-control" onchange="myFunction()"/>
+                <span asp-validation-for="PurchaseQty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalPrice" class="control-label"></label>
+                <input asp-for="TotalPrice" class="form-control" />
+                <span asp-validation-for="TotalPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                 <input asp-for="Product.ProductId" type="hidden" value="@Model.Product.ProductId" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Buy" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<script>
+    function myFunction() {
+       var quantity = document.getElementById("PurchaseQty").value;
+       var isValid = checkStock(quantity);
+       console.log(isValid);
+       if(isValid){
+            var price =  @Html.Raw(Model.Product.ProductPrice) * quantity;
+            document.getElementById("TotalPrice").value = price;
+        }
+       else{
+           alert("Sorry, we have limited stock.");
+           document.getElementById("PurchaseQty").value = 0;
+       }
+        
+    }
+
+    function checkStock(quantity){
+        if(quantity > @Html.Raw(Model.Product.ProductQuantity))
+            return false;
+        return true;
+    }
+    
+</script>

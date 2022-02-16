@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nrhaA6tpeJj/LHQJ3X4iRmAzrRw1fzoBzeAbNQ6lapNBCHzqWVEqDychSmlLS9Gzr4rUaac/xBJPEEeTRrgO8Q==",
+  "dgSpecHash": "OVIbzZqFeke1BPB066Gc8e2jyVDcmUKJqaZw+v0o5TMHggwd285lArFRJkdfouFmzA+ZlpMzroHbkIsE59mKmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\Assignment\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

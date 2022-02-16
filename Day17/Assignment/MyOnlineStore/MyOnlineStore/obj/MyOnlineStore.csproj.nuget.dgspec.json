@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj": {}
+    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\Assignment\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj": {
+    "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\Assignment\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\Assignment\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj",
         "projectName": "MyOnlineStore",
-        "projectPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj",
+        "projectPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\Assignment\\MyOnlineStore\\MyOnlineStore\\MyOnlineStore.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\MyOnlineStore\\MyOnlineStore\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\Documents\\ahyun_workLife\\Collabera\\DotNet17Jan2022\\Day17\\Assignment\\MyOnlineStore\\MyOnlineStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
